@@ -1,0 +1,58 @@
+.hamburger-menu {
+    cursor: pointer;
+    position: relative;
+    height: 19px;
+    display: none;
+
+    html:not([dir="rtl"]) & {
+        padding-left: 1.25em;
+        margin-right: 9px;
+
+        &:before {
+            left: 0;
+        }
+
+        @media (max-width: 992px) {
+            margin-right: 1rem;
+        }
+    }
+
+    html[dir="rtl"] & {
+        padding-right: 1.25em;
+        margin-left: 9px;
+
+        &:before {
+            right: 0;
+        }
+
+        @media (max-width: 992px) {
+            margin-left: 1rem;
+        }
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0.21em;
+        bottom: 0.21em;
+        width: 1em;
+        transition: all 0.5s;
+        background: linear-gradient(
+                to bottom,
+                var(--primary), var(--primary) 20%,
+                var(--white) 20%, var(--white) 40%,
+                var(--primary) 40%, var(--primary) 60%,
+                var(--white) 60%, var(--white) 80%,
+                var(--primary) 80%, var(--primary) 100%
+        );
+    }
+
+    @media (max-width: 992px) {
+        display: block;
+        & + a {
+            display: none;
+        }
+    }
+}
+
+
