@@ -20,7 +20,7 @@ class RefreshCommand extends Command
      *
      * @var string
      */
-    protected $description = '';
+    protected $description = 'Force refresh assets';
 
     /**
      * Execute the console command.
