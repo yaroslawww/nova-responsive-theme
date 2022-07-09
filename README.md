@@ -7,6 +7,9 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/yaroslawww/nova-responsive-theme/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/nova-responsive-theme/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yaroslawww/nova-responsive-theme/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/nova-responsive-theme/?branch=master)
 
+
+### Since laravel nova v4 - package is abandoned
+
 This package is fork from [gregoriohc/laravel-nova-theme-responsive](https://github.com/gregoriohc/laravel-nova-theme-responsive)
  but with changes for custom purposes. It is recommended to use the main package and not the fork.
 
